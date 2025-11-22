@@ -1,0 +1,42 @@
+body{
+    text-shadow: 3px 5px 5px red, 3px 5px 5px greenyellow;
+    background: linear-gradient(skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#box1{
+    font-size: 30px;
+    padding: 10px 10px;
+    border-width: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+  }
+  #decrease, #reset, #increase{
+    background-color: black;
+    width: 70px;
+    height: 20px;
+    color: white;
+    
+  
+  }
+  
+  
+  #decrease:hover, #reset:hover, #increase:hover{
+    background-color: blue;
+    transition: background-color 0.2s;
+    text-shadow: 5px 5px 5px black;
+      
+  
+  }
+  #counter{
+    display: block;
+    text-align: center;
+    font-size: 70px;
+    font-family: Helvetica;
+    margin: auto
+    width: 70px;
+    
+  }
